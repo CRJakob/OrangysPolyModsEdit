@@ -15,83 +15,19 @@ class OrangysCarSwitcherMod extends PolyMod {
                 "uploadedAt": null
             },
             {
-                "name": "GoldCart",
-                "key": "c7wuYTGBfynJjCbNdrIKqB2EUrtJTyIHdYLS3h4iv1NzDZCg",
-                "customId": null,
-                "url": "https://utfs.io/f/c7wuYTGBfynJjCbNdrIKqB2EUrtJTyIHdYLS3h4iv1NzDZCg",
-                "size": 398456,
-                "uploadedAt": "2024-10-31T22:09:29.000Z"
-            },
-            {
-                "name": "car2",
-                "key": "c7wuYTGBfynJfVhWmFED2gmA0RHYbh7uyUzX5LerifE3pScx",
-                "customId": null,
-                "url": "https://utfs.io/f/c7wuYTGBfynJfVhWmFED2gmA0RHYbh7uyUzX5LerifE3pScx",
-                "size": 879068,
-                "uploadedAt": "2024-10-31T22:09:29.000Z"
-            },
-            {
-                "name": "McBoatCar",
-                "key": "c7wuYTGBfynJK63HBbQtG26yhvmfUOigXoF5xbMSCKP7d9pW",
-                "customId": null,
-                "url": "https://utfs.io/f/c7wuYTGBfynJK63HBbQtG26yhvmfUOigXoF5xbMSCKP7d9pW",
-                "size": 94684,
-                "uploadedAt": "2024-10-31T22:09:29.000Z"
-            },
-            {
-                "name": "Amogus",
-                "key": "c7wuYTGBfynJxN8puYdUaPKjzk6tSDreUXHTdZpfmgvuRGh5",
-                "customId": null,
-                "url": "https://utfs.io/f/c7wuYTGBfynJxN8puYdUaPKjzk6tSDreUXHTdZpfmgvuRGh5",
-                "size": 256640,
-                "uploadedAt": "2024-10-31T22:09:29.000Z"
-            },
-            {
-                "name": "HitboxCar",
-                "key": "c7wuYTGBfynJn6uXiAKme4QGPc1gpDbvsEjuWakARqxylTwd",
-                "customId": null,
-                "url": "https://utfs.io/f/c7wuYTGBfynJn6uXiAKme4QGPc1gpDbvsEjuWakARqxylTwd",
-                "size": 63836,
-                "uploadedAt": "2024-10-31T22:09:29.000Z"
-            },
-            {
-                "name": "witchCar",
-                "key": "c7wuYTGBfynJZA9M2gYSZLuFhJOpPjqR3kyB8T42KrtDGl6E",
-                "customId": null,
-                "url": "https://utfs.io/f/c7wuYTGBfynJZA9M2gYSZLuFhJOpPjqR3kyB8T42KrtDGl6E",
-                "size": 283052,
-                "uploadedAt": "2024-10-31T22:09:29.000Z"
-            },
-            {
                 "name": "Pingu",
-                "key": "c7wuYTGBfynJZTaDzLYSZLuFhJOpPjqR3kyB8T42KrtDGl6E",
+                "key": "9KngJOuMiha0EtSd8LB4FinJNTKowtOxXQa9uGRpl6AI7eDU",
                 "customId": null,
-                "url": "https://utfs.io/f/c7wuYTGBfynJZTaDzLYSZLuFhJOpPjqR3kyB8T42KrtDGl6E",
-                "size": 11651520,
+                "url": "https://hoslw9btmn.ufs.sh/f/9KngJOuMiha0EtSd8LB4FinJNTKowtOxXQa9uGRpl6AI7eDU",
+                "size": 11591424,
                 "uploadedAt": "2024-10-31T22:09:29.000Z"
             },
             {
-                "name": "AudiETron",
-                "key": "c7wuYTGBfynJEed4ncORLjkaq1mXhTnUpue4tGcIfs59BWwY",
+                "name": "Trackmania Stadium",
+                "key": "9KngJOuMiha0HCtHiW1torA0gSJmlnOhdaykDIf65vWF43cQ",
                 "customId": null,
-                "url": "https://utfs.io/f/c7wuYTGBfynJEed4ncORLjkaq1mXhTnUpue4tGcIfs59BWwY",
-                "size": 11083844,
-                "uploadedAt": "2024-10-31T22:09:29.000Z"
-            },
-            {
-                "name": "Sandwich",
-                "key": "c7wuYTGBfynJJmVnUTFBAMeqHVZ2nYKNaTb0t1IXiCPcxGds",
-                "customId": null,
-                "url": "https://utfs.io/f/c7wuYTGBfynJJmVnUTFBAMeqHVZ2nYKNaTb0t1IXiCPcxGds",
-                "size": 12752160,
-                "uploadedAt": "2024-10-31T22:09:29.000Z"
-            },
-            {
-                "name": "TrackmaniaStadium",
-                "key": "c7wuYTGBfynJENOpn1RLjkaq1mXhTnUpue4tGcIfs59BWwYC",
-                "customId": null,
-                "url": "https://utfs.io/f/c7wuYTGBfynJENOpn1RLjkaq1mXhTnUpue4tGcIfs59BWwYC",
-                "size": 3352276,
+                "url": "https://hoslw9btmn.ufs.sh/f/9KngJOuMiha0HCtHiW1torA0gSJmlnOhdaykDIf65vWF43cQ",
+                "size": 2896756,
                 "uploadedAt": "2024-10-31T22:09:29.000Z"
             },
             {
@@ -103,43 +39,11 @@ class OrangysCarSwitcherMod extends PolyMod {
                 "uploadedAt": "2024-10-31T22:09:29.000Z"
             },
             {
-                "name": "Banana",
-                "key": "c7wuYTGBfynJxNHiuG2UaPKjzk6tSDreUXHTdZpfmgvuRGh5",
-                "customId": null,
-                "url": "https://utfs.io/f/c7wuYTGBfynJxNHiuG2UaPKjzk6tSDreUXHTdZpfmgvuRGh5",
-                "size": 15683264,
-                "uploadedAt": "2024-10-31T22:09:29.000Z"
-            },
-            {
-                "name": "CheckPointCar",
-                "key": "c7wuYTGBfynJUCxOzADv24FliUaDJM7HST8AsR36wBjZenu1",
-                "customId": null,
-                "url": "https://utfs.io/f/c7wuYTGBfynJUCxOzADv24FliUaDJM7HST8AsR36wBjZenu1",
-                "size": 74432,
-                "uploadedAt": "2024-10-31T22:09:29.000Z"
-            },
-            {
-                "name": "Octane",
-                "key": "c7wuYTGBfynJKYNjKoVQtG26yhvmfUOigXoF5xbMSCKP7d9p",
-                "customId": null,
-                "url": "https://utfs.io/f/c7wuYTGBfynJKYNjKoVQtG26yhvmfUOigXoF5xbMSCKP7d9p",
-                "size": 1586248,
-                "uploadedAt": "2024-10-31T22:09:29.000Z"
-            },
-            {
-                "name": "spookycar",
+                "name": "Spooky Car",
                 "key": "c7wuYTGBfynJ8AxAvEiktRJLgrOHNCpnyUzMjQKde5SswbTG",
                 "customId": null,
                 "url": "https://utfs.io/f/c7wuYTGBfynJ8AxAvEiktRJLgrOHNCpnyUzMjQKde5SswbTG",
                 "size": 115236,
-                "uploadedAt": "2024-10-31T22:09:29.000Z"
-            },
-            {
-                "name": "carPumpkin",
-                "key": "c7wuYTGBfynJnIQ8S3Kme4QGPc1gpDbvsEjuWakARqxylTwd",
-                "customId": null,
-                "url": "https://utfs.io/f/c7wuYTGBfynJnIQ8S3Kme4QGPc1gpDbvsEjuWakARqxylTwd",
-                "size": 2785492,
                 "uploadedAt": "2024-10-31T22:09:29.000Z"
             },
             {
@@ -165,22 +69,6 @@ class OrangysCarSwitcherMod extends PolyMod {
                 "url": "https://utfs.io/f/c7wuYTGBfynJQ4wU3BZLW4ENqTUY5p0hxVok7MuASwjDFy8i",
                 "size": 22366820,
                 "uploadedAt": "2024-10-31T22:09:29.000Z"
-            },
-            {
-                "name": "MetalicCar",
-                "key": "c7wuYTGBfynJDPW4tkNWcjklR4LEXY1tAaCzJPZnNbTB6Sy9",
-                "customId": null,
-                "url": "https://utfs.io/f/c7wuYTGBfynJDPW4tkNWcjklR4LEXY1tAaCzJPZnNbTB6Sy9",
-                "size": 78812,
-                "uploadedAt": "2024-10-31T22:09:28.000Z"
-            },
-            {
-                "name": "Cybertruck",
-                "key": "c7wuYTGBfynJBMuRnSbD7YZNR3rwFjug5CQWi1pLOVIlbfnz",
-                "customId": null,
-                "url": "https://utfs.io/f/c7wuYTGBfynJBMuRnSbD7YZNR3rwFjug5CQWi1pLOVIlbfnz",
-                "size": 131784,
-                "uploadedAt": "2024-10-31T22:09:28.000Z"
             }
         ]
         this.carList = []
