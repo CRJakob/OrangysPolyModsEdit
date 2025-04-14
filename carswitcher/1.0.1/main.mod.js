@@ -257,7 +257,6 @@ class OrangysCarSwitcherMod extends PolyMod {
         pml.registerFuncMixin("hD", MixinType.INSERT, "u()", () => {
             ;setTimeout(() => {
                 let carMod = ActivePolyModLoader.getMod("carswitcher");
-                console.log(document.getElementById("ui").childNodes[0].childNodes[0]);
                 const modButtonCarChooser = document.createElement("button");
             modButtonCarChooser.className = "button",
                 modButtonCarChooser.innerHTML = '<img class="button-icon" src="images/test.svg"> ',

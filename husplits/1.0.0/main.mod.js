@@ -17,7 +17,6 @@ class HUSplits extends PolyMod {
                 } else {
                     return;
                 }
-                console.log(timeDelta.toFixed(3));
                 let uiDiv = document.getElementById("ui");
                 let hintDiv = document.createElement('div');
                 hintDiv.style = `interpolate-size: allow-keywords;
