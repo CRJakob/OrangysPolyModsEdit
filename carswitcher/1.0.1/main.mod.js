@@ -11,6 +11,10 @@ class OrangysCarSwitcherMod extends PolyMod {
                 "url": "models/car.glb",
             },
             {
+                "name": "Trackmania 2020",
+                "url": `${this.modBaseUrl}/${this.modVersion}/assets/tm2020.glb`,
+            },
+            {
                 "name": "Pingu",
                 "url": `${this.modBaseUrl}/${this.modVersion}/assets/Pingu3.glb`,
             },
