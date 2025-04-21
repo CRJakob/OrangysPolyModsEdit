@@ -11,10 +11,6 @@ class OrangysCarSwitcherMod extends PolyMod {
                 "url": "models/car.glb",
             },
             {
-                "name": "Huracan",
-                "url": `${this.modBaseUrl}/${this.modVersion}/assets/huracan.glb`,
-            },
-            {
                 "name": "Trackmania 2020",
                 "url": `${this.modBaseUrl}/${this.modVersion}/assets/tm2020.glb`,
             },
