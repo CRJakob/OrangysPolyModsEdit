@@ -13,7 +13,7 @@ class HUSplits extends PolyMod {
                 null != i && i.checkpointTimes.length > e && (ghostitme = i.checkpointTimes[e]);
                 let timeDelta
                 if(ghostitme !== null || ghostitme !== undefined) {
-                    timeDelta = ghostitme.time - curetime.time;
+                    timeDelta = (ghostitme.time - curetime.time).toFixed(3);
                 } else {
                     return;
                 }
