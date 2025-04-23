@@ -13,7 +13,7 @@ class HUSplits extends PolyMod {
                 null != i && i.checkpointTimes.length > e && (ghostitme = i.checkpointTimes[e]);
                 let timeDelta
                 if(ghostitme !== null || ghostitme !== undefined) {
-                    timeDelta = (ghostitme.time - curetime.time);
+                    timeDelta = ghostitme.time - curetime.time;
                 } else {
                     return;
                 }
@@ -73,7 +73,7 @@ class HUSplits extends PolyMod {
     font-family: ForcedSquare, Arial, sans-serif;
     line-height: 1;
     font-size: 32px;`;
-                splitDiv.innerHTML = `<p style="color: ${(-1*timeDelta)<= 0 ? '#f55' : '#5f5'}">${(-1*timeDelta) <= 0 ? "+" : ""}${(timeDelta * -1).toFixed(3)}</p>`
+                splitDiv.innerHTML = `<p style="color: ${timeDelta <= 0 ? '#f55' : '#5f5'}">${timeDelta <= 0 ? "+" : ""}${(timeDelta*-1).toFixed(3)}</p>`
                 hintDiv.appendChild(splitDiv);
                 uiDiv.appendChild(hintDiv);
                 setTimeout(() => {
