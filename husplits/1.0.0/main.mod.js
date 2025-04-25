@@ -1,4 +1,4 @@
-import { PolyMod, MixinType } from "https://cdn.jsdelivr.net/gh/0rangy/PolyModLoader@0.5.0/PolyModLoader.js";
+import { PolyMod, MixinType } from "https://pml.orangy.cfd/PolyTrackMods/PolyModLoader/0.5.0/PolyModLoader.js";
 
 
 class HUSplits extends PolyMod {
@@ -73,7 +73,7 @@ class HUSplits extends PolyMod {
     font-family: ForcedSquare, Arial, sans-serif;
     line-height: 1;
     font-size: 32px;`;
-                splitDiv.innerHTML = `<p style="color: ${timeDelta <= 0 ? '#f55' : '#5f5'}">${timeDelta <= 0 ? "+" : ""}${timeDelta.toFixed(3)*-1}</p>`
+                splitDiv.innerHTML = `<p style="color: ${timeDelta <= 0 ? '#f55' : '#5f5'}">${timeDelta <= 0 ? "+" : ""}${(timeDelta*-1).toFixed(3)}</p>`
                 hintDiv.appendChild(splitDiv);
                 uiDiv.appendChild(hintDiv);
                 setTimeout(() => {
