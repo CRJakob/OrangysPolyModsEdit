@@ -9,38 +9,47 @@ class OrangysCarSwitcherMod extends PolyMod {
             {
                 "name": "Poly Car",
                 "url": "models/car.glb",
+                "sound": "audio/engine.flac"
             },
             {
                 "name": "Trackmania 2020",
                 "url": `${this.modBaseUrl}/${this.modVersion}/assets/tm2020.glb`,
+                "sound": "audio/engine.flac"
             },
             {
                 "name": "Pingu",
                 "url": `${this.modBaseUrl}/${this.modVersion}/assets/Pingu3.glb`,
+                "sound": "audio/engine.flac"
             },
             {
                 "name": "Trackmania Stadium",
                 "url": `${this.modBaseUrl}/${this.modVersion}/assets/TMStadium.glb`,
+                "sound": "audio/engine.flac"
             },
             {
                 "name": "Forklift",
                 "url": `${this.modBaseUrl}/${this.modVersion}/assets/Forklift2.glb`,
+                "sound": "audio/engine.flac"
             },
             {
                 "name": "Spooky Car",
                 "url": `${this.modBaseUrl}/${this.modVersion}/assets/spookycar2.glb`,
+                "sound": "audio/engine.flac"
             },
             {
                 "name": "F16",
                 "url": `${this.modBaseUrl}/${this.modVersion}/assets/F16.glb`,
+                "sound": "audio/engine.flac"
             },
             {
                 "name": "LightningMcQueen",
                 "url": `${this.modBaseUrl}/${this.modVersion}/assets/McQueen.glb`,
+                "sound": "audio/click.flac"
             },
             {
                 "name": "Delorean",
                 "url": `${this.modBaseUrl}/${this.modVersion}/assets/Delorean.glb`,
+                "sound": "audio/engine.flac"
             }
         ]
         this.carList = []
@@ -275,7 +284,7 @@ class OrangysCarSwitcherMod extends PolyMod {
             carSelectMenu.style.top = "5rem";
             carSelectMenu.style.left = "50%";
             carSelectMenu.innerHTML = `${carMod.carModels.map(carModel =>{
-                return `<button class = "button" onclick=\'javascript:{this.querySelector(".loading").style.display = "";window.polyModLoader.getMod("carswitcher").carApi.setNewCarTemplateModel("${carModel.url}").then((x)=>{window.localStorage.MyCar = "${carModel.url}";window.polyModLoader.getMod("carswitcher").carApi.reloadAllCarModels();this.querySelector(".loading").style.display = "none"})}'>${carModel.name}<span class = "loading" style = "display:none;"> loading</span></button>`
+                return `<button class = "button" onclick=\'javascript:{this.querySelector(".loading").style.display = "";window.polyModLoader.getMod("carswitcher").carApi.setNewCarTemplateModel("${carModel.url}").then((x)=>{window.localStorage.MyCar = "${carModel.url}";window.polyModLoader.getMod("carswitcher").carApi.reloadAllCarModels();this.querySelector(".loading").style.display = "none";window.localStorage.setItem("carSound", "${carModel.sound}")})}'>${carModel.name}<span class = "loading" style = "display:none;"> loading</span></button>`
             })}`;
             carSelectMenu.style.backgroundColor = "var(--surface-color)";
             modButtonCarChooser.addEventListener("click", ( () => {
@@ -285,6 +294,9 @@ class OrangysCarSwitcherMod extends PolyMod {
             document.getElementById("ui").childNodes[0].childNodes[0].appendChild(modButtonCarChooser);
             }, 300)
         })
+        if(pml.localStorage.getItem("carSound")){
+            pml.registerSoundOverride("engine",pml.localStorage.getItem("carSound"));
+        }
     }
 }
 
